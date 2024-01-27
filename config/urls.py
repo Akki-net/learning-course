@@ -23,3 +23,6 @@ urlpatterns = [
     path('test-app/', include('test_app.urls')),
     # path('employee-learning/', include('employee_learning.urls'))
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
