@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True
 
 # ALLOWED_HOSTS = [] 
-ALLOWED_HOSTS = ["LearningCourseWithAkash"]
+ALLOWED_HOSTS = ["learningcoursewithakash.onrender.com"]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
